@@ -11,6 +11,7 @@ var basicAuth = require('express-basic-auth');
 var compress = require('compression');
 const fs = require('fs');
 const homedir = require('os').homedir();
+var cors = require('cors');
 
 var yargs = require('yargs')
     .usage('usage: $0 [options] <aws-es-cluster-endpoint>')
@@ -135,6 +136,7 @@ var app = express();
 app.use(compress());
 app.use(bodyParser.raw({limit: REQ_LIMIT, type: function() { return true; }}));
 app.use(getCredentials);
+app.use(cors());
 
 if (argv.H) {
     app.get(argv.H, function (req, res) {
