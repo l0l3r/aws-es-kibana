@@ -1,36 +1,37 @@
 {
-  "name": "aws-es-kibana",
-  "version": "1.0.8-pre",
-  "description": "AWS ElasticSearch/Kibana Proxy",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "aws-es-kibana",
+  "_id": "aws-es-kibana@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-9+oX+xS+Oi+nPbs8RHCK4fxC2knBJMrBv6G4SfcGEVDlAhiBHELhLcoURVBOyTpWHEbnvjK+f9gFQz7vYGfKXA==",
+  "_location": "/aws-es-kibana",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "aws-es-kibana",
+    "name": "aws-es-kibana",
+    "escapedName": "aws-es-kibana",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "engines": {
-    "node": ">=6.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/santthosh/aws-es-kibana.git"
-  },
-  "keywords": [
-    "AWS",
-    "ES",
-    "ElasticSearch",
-    "Kibana",
-    "AWS ES Proxy",
-    "AWS ES Kibana"
+  "_requiredBy": [
+    "#USER"
   ],
-  "author": "santthosh",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/santthosh/aws-es-kibana/issues"
+  "_resolved": "https://registry.npmjs.org/aws-es-kibana/-/aws-es-kibana-1.0.8.tgz",
+  "_shasum": "75e542e7ac904e45e4a3b74ae4aa622cecd66a03",
+  "_spec": "aws-es-kibana",
+  "_where": "C:\\Users\\loler",
+  "author": {
+    "name": "santthosh"
   },
-  "homepage": "https://github.com/santthosh/aws-es-kibana#readme",
-  "preferGlobal": true,
   "bin": {
     "aws-es-kibana": "index.js"
   },
+  "bugs": {
+    "url": "https://github.com/santthosh/aws-es-kibana/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "aws-sdk": "^2.48.0",
     "body-parser": "^1.15.2",
@@ -40,6 +41,32 @@
     "express-basic-auth": "^1.1.5",
     "figlet": "^1.1.2",
     "http-proxy": "^1.14.0",
-    "yargs": "^4.8.1"    
-  }
+    "yargs": "^4.8.1"
+  },
+  "deprecated": false,
+  "description": "AWS ElasticSearch/Kibana Proxy",
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "homepage": "https://github.com/santthosh/aws-es-kibana#readme",
+  "keywords": [
+    "AWS",
+    "ES",
+    "ElasticSearch",
+    "Kibana",
+    "AWS ES Proxy",
+    "AWS ES Kibana"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "aws-es-kibana",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santthosh/aws-es-kibana.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.8"
 }
